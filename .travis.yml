@@ -6,9 +6,9 @@ dist: trusty
 
 addons:
     sonarcloud:
-        organization: "lorenzorossi02"
-        token:
-         secure: 3686844ff62c1c95f0f5f080623b593f3cf352ad
+    organization: "lorenzorossi02"
+    token:
+        secure: 3686844ff62c1c95f0f5f080623b593f3cf352ad
 script: 
     - ant build
     - sonar-scanner
